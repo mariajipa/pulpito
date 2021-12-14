@@ -1,0 +1,169 @@
+/*ESTILOS TEXTO*/
+.titulo {
+    font-weight: 900;
+    font-size:36px;
+    margin: 30px;
+}
+
+/*BUTTONS*/
+
+button {
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transition: all 250ms ease 0s;
+    user-select: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    border-radius: 50px;
+    font-weight: 900;
+    height: 42px;
+    min-width: 160px;
+    font-size: 16px;
+    padding: 1px 15px;
+    margin:15px;
+    border-width: 0px;
+}
+
+.button-red a, .button-blue a, .button-green a {
+    color: white;
+}
+
+.button-white a {
+    color:midnightblue;
+}
+
+.button-white {
+    
+    background: rgb(255, 255, 255);
+    color:midnightblue;
+    margin: 20px;
+}
+
+.button-green {
+    background: #3edf84;
+    color:white;
+    margin: 20px;
+}
+
+.button-blue {
+    background: #007bff ;
+    color:white;
+    margin: 20px;
+}
+
+.button-red {
+    background: #dd5048 ;
+    color:white;
+    margin: 20px;
+}
+
+
+/*FORMS*/
+
+form {
+    text-align: center;
+    width:30%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+a, footer ul li {
+    text-decoration: none;
+    margin: 5px;
+    list-style:none;
+}
+
+header {
+  padding: 5px;
+  background-color: #007bff;
+  display: flex;
+  position: sticky;
+  top:0;
+  bottom:0;
+  justify-content: space-between;
+  vertical-align: center;
+  align-items: center;
+}
+
+header img {
+    max-width: 150px;
+}
+
+.nav-bar {
+    align-items: right;
+}
+
+#border-right {
+    border-right:solid midnightblue 2px;
+    padding-right: 15px;
+}
+
+
+
+main {
+    padding-left:150px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-image: url('../assets/FondoHome.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 300px;
+    color:white;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 450px;
+}
+
+main h1 {
+    padding-bottom:30px;
+    font-size: 50px;
+}
+
+
+
+.content {
+    padding-left:150px;
+    padding-right:500px;
+    color:rgb(53, 53, 53);
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom:130px;
+}
+
+.content h1, .contentCenter h1 {
+    font-size: 35px;
+}
+
+
+
+.contentCenter {
+    text-align:center;
+    margin-bottom:130px;
+}
+
+
+.elementsCenter {
+    margin: 10px;
+    align-items: center;
+    text-align:center;
+    vertical-align:top;
+}
+
+.elementsCenter img {
+    max-width: 150px;
+    margin: 15px;
+}
+
+.elementsCenter div {
+    width: 25%;
+    display:inline-block;
+    margin: 15px;
+}
