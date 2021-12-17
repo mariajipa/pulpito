@@ -1,11 +1,15 @@
 <template>
   <header>
+      <div class="header">
           <a href="http://localhost:8080/">
               <img
                   src="../assets/WhiteLogoPulpo.png"
                   alt="Logo blanco de la aplicación Pulpo"
               >
           </a>
+
+          <button class="button-white" ><a  href="/dashboard">¿Qué quieres compartir?</a></button>
+
           <div class="right">
           <div class="buttons">
             <a style="color:white" href="#">Preguntas Frecuentes</a>
@@ -21,6 +25,7 @@
             </button>
           </div>
         </div>
+      </div>
     </header>
 </template>
 
@@ -65,16 +70,15 @@ export default {
 </script>
 
 <style>
-header {
-  padding: 5px;
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #007bff;
   position: sticky;
   top:0;
   bottom:0;
-  display:inline-flex;
   justify-content: space-between;
-  vertical-align: center;
-  align-items: center;
+  display: flex;
 }
 
 header img {
@@ -86,7 +90,7 @@ header img {
 }
 
 img {
-  margin-top:25px;
+  margin-top:15px;
 }
 
 #border-right {

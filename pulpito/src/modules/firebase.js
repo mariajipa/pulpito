@@ -18,7 +18,6 @@ const firebaseApp = Firebase.initializeApp(firebaseConfig);
 export const Auth = firebaseApp.auth()
 export const Storage = firebaseApp.storage()
 export const Database = firebaseApp.firestore()
-export const TasksRef = Database.collection('users')
-
-// TasksRef
+export const GroupsList = Database.collection('groups')
+export const CategoriesList = Database.collection('service')
 

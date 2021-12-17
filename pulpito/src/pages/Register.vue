@@ -11,6 +11,13 @@
 
       <div>
 
+      <b-field label="Nombre">
+          <b-input type="text"
+              v-model="userData.name"
+              maxlength="30">
+          </b-input>
+      </b-field>
+
       <b-field label="Email">
           <b-input type="email"
               v-model="userData.email"
@@ -53,6 +60,7 @@ export default {
     return {
       formError: "",
       userData: {
+        name: "",
         email: "",
         password: "",
       },
